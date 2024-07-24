@@ -1,0 +1,34 @@
+working_directory = "/home/bruno/"
+
+[window]
+opacity = 0.75
+decorations = "None"
+startup_mode = "Fullscreen"
+padding = {x = 0, y = 10}
+
+[font]
+normal = { family = "Meslo LGSDZ Nerd Font Mono", style = "Regular" }
+bold = { family = "Meslo LGSDZ Nerd Font Mono", style = "Bold" }
+italic = { family = "Meslo LGSDZ Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "Meslo LGSDZ Nerd Font Mono", style = "Bold Italic" }
+size = 14.5
+
+[colors]
+cursor = {text = "#ffffff", cursor="#dd2222"}
+draw_bold_text_with_bright_colors = true
+
+
+[colors.primary]
+foreground="#ffffff"
+dim_foreground = "#ffffff"
+background="#010101"
+bright_foreground = "#ffffff"
+
+[colors.bright]
+white = "#fafafa"
+red = "#fa2222"
+yellow = "#ffca00"
+green = "#aafe44"
+
+[cursor]
+style = {shape="block", blinking = "On"}
