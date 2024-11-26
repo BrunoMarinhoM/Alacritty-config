@@ -1,17 +1,20 @@
-working_directory = "/home/bruno/"
-
 [window]
 opacity = 0.75
 decorations = "None"
-startup_mode = "Fullscreen"
-padding = {x = 0, y = 10}
+startup_mode = "Maximized"
+padding = {x = 5, y = 5 }
+
+[shell]
+program = "/bin/sh"
+args = ["-c", """tmux attach || tmux new-session -s bruno-nix -d && tmux attach"""]
+
 
 [font]
 normal = { family = "Meslo LGSDZ Nerd Font Mono", style = "Regular" }
 bold = { family = "Meslo LGSDZ Nerd Font Mono", style = "Bold" }
 italic = { family = "Meslo LGSDZ Nerd Font Mono", style = "Italic" }
 bold_italic = { family = "Meslo LGSDZ Nerd Font Mono", style = "Bold Italic" }
-size = 14.5
+size = 14.0
 
 [colors]
 cursor = {text = "#ffffff", cursor="#dd2222"}
@@ -31,4 +34,4 @@ yellow = "#ffca00"
 green = "#aafe44"
 
 [cursor]
-style = {shape="block", blinking = "On"}
+style = {shape="block", blinking = "Never"}
